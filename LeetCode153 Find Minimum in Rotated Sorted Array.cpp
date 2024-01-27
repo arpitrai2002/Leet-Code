@@ -25,15 +25,10 @@ public:
     }
     int findMin(vector<int>& nums) {
         int index=Pivot(nums);
-        int n=nums.size()-1;
         if(index==-1){
             return -1;
         }
         else{
-            while(index+1<=n && nums[index]==nums[index+1]){
-            index++;
-            continue;
-        }
             if(index==nums.size()-1){
                 return nums[0];
             }
