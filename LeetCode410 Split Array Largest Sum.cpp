@@ -40,3 +40,6 @@ public:
         return ans;
     }
 };
+
+int a;
+int b;
