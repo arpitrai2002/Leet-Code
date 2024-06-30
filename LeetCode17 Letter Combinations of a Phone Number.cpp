@@ -32,6 +32,7 @@ public:
 
         if(digits==""){
             return ans;
+            
         }
         
         Combine(ma,ans,output,digits,0);
