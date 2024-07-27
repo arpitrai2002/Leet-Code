@@ -65,4 +65,6 @@ public:
         Queen(col,board,ans,n);
         return ans;
     }
+
+    
 };
